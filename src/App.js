@@ -1,25 +1,23 @@
 import React from 'react'; 
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header} from './containers';
-import { CTA, Brand, Navbar} from './components';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 import './App.css';
 
 const App = () => {
   return (
-    <div className='App'>
-        <div className='gradient__bg'>
-          <Navbar/>
-          <Header/>
-
-        </div>
-        <Brand/>
-        <WhatGPT3/>
-        <Features/>
-        <Possibility/>
-        <CTA/>
-        <Blog/>
-        <Footer/>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Login' element={<Login/>}/>
+          <Route path='/Register' element={<Register/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

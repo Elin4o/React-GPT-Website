@@ -1,0 +1,24 @@
+.login__bg{
+    background-image: url("../assets/ai.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width:550px) {
+  .login__bg{
+   background-size:100% ;
+  }
+}
+
+@media screen and (max-width:400px) {
+   .login__bg{
+    background-size:100% ;
+   }
+ }

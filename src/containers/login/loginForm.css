@@ -1,0 +1,141 @@
+.gpt3__loginForm-form{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1rem 0;
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); 
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+.gpt3__loginForm {
+    height: 600px;
+    width: 600px;
+}
+
+.gpt3__loginForm-form_elements{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.gpt3__loginForm-form h2{
+    font-family: var(--font-family);
+    margin: 2rem 0 1rem;
+    font-size: 36px;
+    margin-bottom: 2rem;
+ }
+
+.gpt3__loginForm-form p{
+   font-family: var(--font-family);
+   font-size: 18px;
+   margin-bottom: 0.5rem;
+   margin-top: 0.5rem;
+}
+
+.gpt3__loginForm-form p:last-child{
+    font-family: var(--font-family);
+    font-size: 14px;
+    align-self: self-end;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0;
+ }
+
+ .gpt3__loginForm-form a{
+    margin-top: 1.5rem;
+ }
+
+.gpt3__loginForm-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.gpt3__loginForm-form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    border: none;
+ }
+
+ .gpt3__loginForm-form button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-family: var(--font-family);
+    background: #FF4820;
+    font-weight: 500;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%;
+    height: 46px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ }
+
+ @media screen and (max-width:2000px){
+
+    .gpt3__loginForm-form h2{
+        font-family: var(--font-family);
+        margin: 2rem 0 1rem;
+        font-size: 46px;
+     }
+}
+
+ @media screen and (max-width:850px){
+
+    .gpt3__loginForm-form h2{
+        font-family: var(--font-family);
+        margin: 2rem 0 1rem;
+        font-size: 46px;
+     }
+}
+
+ @media screen and (max-width:550px) {
+    .gpt3__loginForm-form{
+        background: rgba(0, 40, 83, .75);
+        border-radius: 0;
+    }
+
+    .gpt3__loginForm-form h2{
+        font-family: var(--font-family);
+        margin: 2rem 0 1rem;
+        font-size: 42px;
+        margin-bottom: 2rem;
+     }
+    
+ }
+ @media screen and (max-width:400px) {
+    .gpt3__loginForm-form{
+        background: rgba(0, 40, 83, .75);
+    }
+
+    .gpt3__loginForm-form h2{
+        font-family: var(--font-family);
+        margin: 2rem 0 1rem;
+        font-size: 42px;
+        margin-bottom: 2rem;
+     }
+ }
